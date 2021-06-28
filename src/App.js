@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Navigation from './components/Navigation';
 import Header from './components/Header';
-import RegisterForm from './components/RegisterForm';
+import TodoForm from './components/TodoForm';
 
 class App extends Component {
 
@@ -14,9 +14,9 @@ class App extends Component {
         <section>
           {/*Component*/}
           <Navigation />
-          <h2>User Form</h2>
+          <h2>Todo Form</h2>
           {/*Component*/}
-          <RegisterForm />
+          <TodoForm />
         </section>
       </div>
     );
